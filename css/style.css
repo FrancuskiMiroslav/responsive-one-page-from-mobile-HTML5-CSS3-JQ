@@ -13,37 +13,7 @@
   width: 50%;
 }
 
-/* line 2, src/sass/components/_mixins.scss */
-html {
-  scroll-behavior: smooth;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: "Roboto", sans-serif, "Gilroy", cursive, Verdana, Geneva, Tahoma, sans-serif;
-}
-
-/* line 8, src/sass/components/_mixins.scss */
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-  padding: 0;
-  margin: 0;
-}
-
-/* line 16, src/sass/components/_mixins.scss */
-ul,
-ol {
-  list-style: none;
-}
-
-/* line 21, src/sass/components/_mixins.scss */
-a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-/* line 9, src/sass/style.scss */
+/* line 7, src/sass/style.scss */
 body {
   font-family: "Roboto Condensed", sans-serif;
   margin: 0;
@@ -51,7 +21,7 @@ body {
   height: auto;
 }
 
-/* line 16, src/sass/style.scss */
+/* line 14, src/sass/style.scss */
 h1 {
   font-weight: 400;
   font-size: 2.5rem;
@@ -59,7 +29,7 @@ h1 {
   margin: 0;
 }
 
-/* line 23, src/sass/style.scss */
+/* line 21, src/sass/style.scss */
 h2 {
   font-weight: 400;
   font-size: 1.2rem;
@@ -67,7 +37,7 @@ h2 {
   margin: 0;
 }
 
-/* line 30, src/sass/style.scss */
+/* line 28, src/sass/style.scss */
 h3 {
   font-weight: 200;
   font-size: 1rem;
@@ -75,13 +45,13 @@ h3 {
   margin: 0;
 }
 
-/* line 37, src/sass/style.scss */
+/* line 35, src/sass/style.scss */
 img {
   display: block;
   width: 100%;
 }
 
-/* line 42, src/sass/style.scss */
+/* line 40, src/sass/style.scss */
 main {
   max-width: 900px;
   margin: auto;
@@ -89,12 +59,12 @@ main {
           box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1);
 }
 
-/* line 49, src/sass/style.scss */
+/* line 47, src/sass/style.scss */
 #landing {
   background: #fff;
 }
 
-/* line 53, src/sass/style.scss */
+/* line 51, src/sass/style.scss */
 #landing-text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -114,13 +84,13 @@ main {
   padding-left: 1rem;
 }
 
-/* line 64, src/sass/style.scss */
+/* line 62, src/sass/style.scss */
 #landing-text h2,
 h3 {
   color: #888;
 }
 
-/* line 69, src/sass/style.scss */
+/* line 67, src/sass/style.scss */
 #landing-image {
   background: url(https://source.unsplash.com/bs2Ba7t69mM);
   background-position: 35% 60%;
@@ -133,7 +103,7 @@ h3 {
   margin: 0;
 }
 
-/* line 79, src/sass/style.scss */
+/* line 77, src/sass/style.scss */
 .button {
   padding: 0.5rem 2rem;
   border: 1px #ccc solid;
@@ -146,12 +116,12 @@ h3 {
   transition: background 500ms ease;
 }
 
-/* line 90, src/sass/style.scss */
+/* line 88, src/sass/style.scss */
 .button:hover {
   background: #f4f4f4;
 }
 
-/* line 94, src/sass/style.scss */
+/* line 92, src/sass/style.scss */
 #header {
   padding: 1.5rem;
   text-align: center;
@@ -159,7 +129,7 @@ h3 {
   color: #fff;
 }
 
-/* line 101, src/sass/style.scss */
+/* line 99, src/sass/style.scss */
 #header h2 {
   border-left: dotted 1px #fff;
   border-right: dotted 1px #fff;
@@ -167,13 +137,13 @@ h3 {
   padding: 0 1rem 0 1rem;
 }
 
-/* line 108, src/sass/style.scss */
+/* line 106, src/sass/style.scss */
 .caption {
   padding: 0.8rem;
   text-align: center;
 }
 
-/* line 113, src/sass/style.scss */
+/* line 111, src/sass/style.scss */
 footer {
   text-align: center;
   padding: 2rem 1rem;
@@ -181,7 +151,7 @@ footer {
   color: #333;
 }
 
-/* line 120, src/sass/style.scss */
+/* line 118, src/sass/style.scss */
 footer h3 {
   font-size: 3rem;
   margin-bottom: 0;
@@ -189,18 +159,18 @@ footer h3 {
 
 /* screen sizes 500px and more */
 @media (min-width: 500px) {
-  /* line 127, src/sass/style.scss */
+  /* line 125, src/sass/style.scss */
   #landing {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     height: 100%;
   }
-  /* line 132, src/sass/style.scss */
+  /* line 130, src/sass/style.scss */
   #landing-text {
     height: 100vh;
   }
-  /* line 136, src/sass/style.scss */
+  /* line 134, src/sass/style.scss */
   #landing-image {
     height: 100vh;
     background-position: 35% 0%;
@@ -209,7 +179,7 @@ footer h3 {
 
 /* screen sizes 700px and more */
 @media (min-width: 700px) {
-  /* line 144, src/sass/style.scss */
+  /* line 142, src/sass/style.scss */
   .button {
     padding: 1rem 3rem;
   }
